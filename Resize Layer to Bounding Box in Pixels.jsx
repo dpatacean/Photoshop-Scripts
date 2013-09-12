@@ -24,13 +24,12 @@
  */
 
 #target photoshop
-app.BringToFront(); // Making sure Photoshop gets the focus during script execution.
 
 /**
  * Should the user be prompted to enter resize parameters?
  * @type {Boolean}
  */
-var promptUser = true;
+var promptUser = false;
 
 /**
  * Default resize width (null to disable).
